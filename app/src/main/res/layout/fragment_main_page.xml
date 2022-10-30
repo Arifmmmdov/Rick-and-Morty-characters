@@ -31,6 +31,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.core.widget.NestedScrollView
+        android:id = "@+id/nested_scrollView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="20dp"
@@ -51,6 +52,13 @@
                 android:layout_height="wrap_content"
                 tools:listitem="@layout/recycler_item"
                 tools:itemCount="3"/>
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id = "@+id/progress_bar"
+                android:layout_marginTop = "10dp"
+                />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.core.widget.NestedScrollView>

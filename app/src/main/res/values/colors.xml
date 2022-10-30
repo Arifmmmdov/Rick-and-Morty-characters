@@ -11,7 +11,5 @@
     <color name="secondary_color">#199CB4</color>
     <color name="text_color_black">#1E232C</color>
     <color name="orange">#B37212</color>
-
-
-
+    <color name="grey">#232323</color>
 </resources>
